@@ -10,9 +10,10 @@ def years(age):
 def main():
     name = input("Enter your name: ")
     age = int(input("Enter your age: "))
-
+    number = int(input("Please enter a number: "))
     hundred_years = years(age)
-    print("Hi {0}, you will be 100 years old in {1}".format(name, hundred_years))
+    for i in range(0, number):
+        print("Hi {0} you will be 100 years old in {1}".format(name, hundred_years))
     # return
 
 
